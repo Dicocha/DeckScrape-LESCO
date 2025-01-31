@@ -11,11 +11,12 @@ This project scrapes data from a **Lesco dictionary**, processes it into an **An
 ## 📦 Installation
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/anki-card-generator.git
+   git clone [https://github.com/Dicocha/DeckScrape-LESCO.git]
    cd anki-card-generator
 
+2. **Active venv:**
+`python -m venv venv`
+`source venv/bin/activate`  # On Windows: venv\Scripts\activate
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
+3. **Install requirements**
+`pip install -r requirements.txt`
